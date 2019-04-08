@@ -32,6 +32,11 @@ MSParS dataset is based on Satori Knoledge Base. The entities, relations and typ
 ==================================================
 ```
 
+Consider the first example, (isa ?x mso:cvg.computer_videogame) declares the variable ?x is a computer videogame, where 'mso:cvg.computer_videogame' is a standard type in the knowledge base. ( mso:cvg.computer_videogame.release_date ?x ?y ) declares that ?y is the release date of the computer video game ?x. Finally (argmax ... 1) rank all computer video game ?x with their release date ?y in descending order and pick the first one, that is the "computer videogame with the latest release date".
+
+The second example is a multi-turn conversation which answering the second question relying on the entity in the first question. Specifically, "this spaceflight" in Q2 denotes the entity project_mercury in Q1.
+
+The logical form we used is a simplified lambda calculus, which is similar with [Lambda Dependency-Based Compositional Semantics](https://arxiv.org/pdf/1309.4408.pdf).
 
 ## Distribution
 
