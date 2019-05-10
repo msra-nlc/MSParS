@@ -27034,187 +27034,187 @@
 <question type id=5407>	multi-turn-entity
 ==================================================
 <question id=5408>	what is puck 's gravity ||| tell us about proteus ?
-<logical form id=5408>	( lambda ?x ( mso:astronomy.celestial_object.gravity puck ?x ) ||| ( lambda ?x ( mso:astronomy.celestial_object.gravity proteus ?x ) )
+<logical form id=5408>	( lambda ?x ( mso:astronomy.celestial_object.gravity puck ?x ) ) ||| ( lambda ?x ( mso:astronomy.celestial_object.gravity proteus ?x ) )
 <parameters id=5408>	puck (entity) [2,2] @Q1 ||| proteus (entity) [3,3] @Q2
 <question type id=5408>	multi-turn-predicate
 ==================================================
 <question id=5409>	gravity of hyperion ||| tell us about 139 juewa ?
-<logical form id=5409>	( lambda ?x ( mso:astronomy.celestial_object.gravity hyperion ?x ) ||| ( lambda ?x ( mso:astronomy.celestial_object.gravity 139_juewa ?x ) )
+<logical form id=5409>	( lambda ?x ( mso:astronomy.celestial_object.gravity hyperion ?x ) ) ||| ( lambda ?x ( mso:astronomy.celestial_object.gravity 139_juewa ?x ) )
 <parameters id=5409>	hyperion (entity) [2,2] @Q1 ||| 139_juewa (entity) [3,4] @Q2
 <question type id=5409>	multi-turn-predicate
 ==================================================
 <question id=5410>	most famous books nancy stearns theiss ||| tell me about smith, james edgar ’s ones.
-<logical form id=5410>	( lambda ?x ( mso:book.author.works_written nancy_stearns_theiss ?x ) ||| ( lambda ?x ( mso:book.author.works_written smith,_james_edgar ?x ) )
+<logical form id=5410>	( lambda ?x ( mso:book.author.works_written nancy_stearns_theiss ?x ) ) ||| ( lambda ?x ( mso:book.author.works_written smith,_james_edgar ?x ) )
 <parameters id=5410>	nancy_stearns_theiss (entity) [3,5] @Q1 ||| smith,_james_edgar (entity) [3,5] @Q2
 <question type id=5410>	multi-turn-predicate
 ==================================================
 <question id=5411>	what is word count the yowler foul-up ||| and for downloading music ) ?
-<logical form id=5411>	( lambda ?x ( mso:book.written_work.word_count the_yowler_foul-up ?x ) ||| ( lambda ?x ( mso:book.written_work.word_count downloading_music ?x ) )
+<logical form id=5411>	( lambda ?x ( mso:book.written_work.word_count the_yowler_foul-up ?x ) ) ||| ( lambda ?x ( mso:book.written_work.word_count downloading_music ?x ) )
 <parameters id=5411>	the_yowler_foul-up (entity) [4,6] @Q1 ||| downloading_music (entity) [2,3] @Q2
 <question type id=5411>	multi-turn-predicate
 ==================================================
 <question id=5412>	boiling point of europium ||| how about for the element chlorine ?
-<logical form id=5412>	( lambda ?x ( mso:chemistry.chemical_element.boiling_point europium ?x ) ||| ( lambda ?x ( mso:chemistry.chemical_element.boiling_point chlorine ?x ) )
+<logical form id=5412>	( lambda ?x ( mso:chemistry.chemical_element.boiling_point europium ?x ) ) ||| ( lambda ?x ( mso:chemistry.chemical_element.boiling_point chlorine ?x ) )
 <parameters id=5412>	europium (entity) [3,3] @Q1 ||| chlorine (entity) [5,5] @Q2
 <question type id=5412>	multi-turn-predicate
 ==================================================
 <question id=5413>	what is companies founded by kumardev chatterjee ||| what about for yin mingshan ?
-<logical form id=5413>	( lambda ?x ( mso:organization.founder.organizations_founded kumardev_chatterjee ?x ) ||| ( lambda ?x ( mso:organization.founder.organizations_founded yin_mingshan ?x ) )
+<logical form id=5413>	( lambda ?x ( mso:organization.founder.organizations_founded kumardev_chatterjee ?x ) ) ||| ( lambda ?x ( mso:organization.founder.organizations_founded yin_mingshan ?x ) )
 <parameters id=5413>	kumardev_chatterjee (entity) [5,6] @Q1 ||| yin_mingshan (entity) [3,4] @Q2
 <question type id=5413>	multi-turn-predicate
 ==================================================
 <question id=5414>	what date was rudolf adolf påhlman born ||| and regarding mare romelt ?
-<logical form id=5414>	( lambda ?x ( mso:people.person.date_of_birth rudolf_adolf_påhlman ?x ) ||| ( lambda ?x ( mso:people.person.date_of_birth mare_romelt ?x ) )
+<logical form id=5414>	( lambda ?x ( mso:people.person.date_of_birth rudolf_adolf_påhlman ?x ) ) ||| ( lambda ?x ( mso:people.person.date_of_birth mare_romelt ?x ) )
 <parameters id=5414>	rudolf_adolf_påhlman (entity) [3,5] @Q1 ||| mare_romelt (entity) [2,3] @Q2
 <question type id=5414>	multi-turn-predicate
 ==================================================
 <question id=5415>	what is ride type men in black: alien attack ||| and hubba-hubba highway ?
-<logical form id=5415>	( lambda ?x ( mso:amusement_parks.ride.ride_type men_in_black:_alien_attack ?x ) ||| ( lambda ?x ( mso:amusement_parks.ride.ride_type hubba-hubba_highway ?x ) )
+<logical form id=5415>	( lambda ?x ( mso:amusement_parks.ride.ride_type men_in_black:_alien_attack ?x ) ) ||| ( lambda ?x ( mso:amusement_parks.ride.ride_type hubba-hubba_highway ?x ) )
 <parameters id=5415>	men_in_black:_alien_attack (entity) [4,8] @Q1 ||| hubba-hubba_highway (entity) [1,2] @Q2
 <question type id=5415>	multi-turn-predicate
 ==================================================
 <question id=5416>	who is authors for fundamentals of fire fighter skills: skills evaluation workbook ||| and about wrong channel: those crazy tanner kids (volume 2) ?
-<logical form id=5416>	( lambda ?x ( mso:book.written_work.author fundamentals_of_fire_fighter_skills:_skills_evaluation_workbook ?x ) ||| ( lambda ?x ( mso:book.written_work.author wrong_channel:_those_crazy_tanner_kids_(volume_2) ?x ) )
+<logical form id=5416>	( lambda ?x ( mso:book.written_work.author fundamentals_of_fire_fighter_skills:_skills_evaluation_workbook ?x ) ) ||| ( lambda ?x ( mso:book.written_work.author wrong_channel:_those_crazy_tanner_kids_(volume_2) ?x ) )
 <parameters id=5416>	fundamentals_of_fire_fighter_skills:_skills_evaluation_workbook (entity) [4,11] @Q1 ||| wrong_channel:_those_crazy_tanner_kids_(volume_2) (entity) [2,9] @Q2
 <question type id=5416>	multi-turn-predicate
 ==================================================
 <question id=5417>	untitled office spinoff 's setting ||| and of wizard of earthsea ?
-<logical form id=5417>	( lambda ?x ( mso:fictional_universe.work_of_fiction.setting untitled_office_spinoff ?x ) ||| ( lambda ?x ( mso:fictional_universe.work_of_fiction.setting wizard_of_earthsea ?x ) )
+<logical form id=5417>	( lambda ?x ( mso:fictional_universe.work_of_fiction.setting untitled_office_spinoff ?x ) ) ||| ( lambda ?x ( mso:fictional_universe.work_of_fiction.setting wizard_of_earthsea ?x ) )
 <parameters id=5417>	untitled_office_spinoff (entity) [0,2] @Q1 ||| wizard_of_earthsea (entity) [2,4] @Q2
 <question type id=5417>	multi-turn-predicate
 ==================================================
 <question id=5418>	writers for film rukojmí v bella vista ||| and what about for the intimate stranger ) ?
-<logical form id=5418>	( lambda ?x ( mso:film.film.writer rukojmí_v_bella_vista ?x ) ||| ( lambda ?x ( mso:film.film.writer the_intimate_stranger ?x ) )
+<logical form id=5418>	( lambda ?x ( mso:film.film.writer rukojmí_v_bella_vista ?x ) ) ||| ( lambda ?x ( mso:film.film.writer the_intimate_stranger ?x ) )
 <parameters id=5418>	rukojmí_v_bella_vista (entity) [3,6] @Q1 ||| the_intimate_stranger (entity) [4,6] @Q2
 <question type id=5418>	multi-turn-predicate
 ==================================================
 <question id=5419>	administrative capital of gmina stare miasto ||| how about for khomas ?
-<logical form id=5419>	( lambda ?x ( mso:location.location.administrative_capital gmina_stare_miasto ?x ) ||| ( lambda ?x ( mso:location.location.administrative_capital khomas ?x ) )
+<logical form id=5419>	( lambda ?x ( mso:location.location.administrative_capital gmina_stare_miasto ?x ) ) ||| ( lambda ?x ( mso:location.location.administrative_capital khomas ?x ) )
 <parameters id=5419>	gmina_stare_miasto (entity) [3,5] @Q1 ||| khomas (entity) [3,3] @Q2
 <question type id=5419>	multi-turn-predicate
 ==================================================
 <question id=5420>	where is capital emirate of granada ||| how about for dekalb county, alabama ?
-<logical form id=5420>	( lambda ?x ( mso:location.location.administrative_capital emirate_of_granada ?x ) ||| ( lambda ?x ( mso:location.location.administrative_capital dekalb_county,_alabama ?x ) )
+<logical form id=5420>	( lambda ?x ( mso:location.location.administrative_capital emirate_of_granada ?x ) ) ||| ( lambda ?x ( mso:location.location.administrative_capital dekalb_county,_alabama ?x ) )
 <parameters id=5420>	emirate_of_granada (entity) [3,5] @Q1 ||| dekalb_county,_alabama (entity) [3,5] @Q2
 <question type id=5420>	multi-turn-predicate
 ==================================================
 <question id=5421>	what is episode duration between two worlds ||| and what about with regards to mistika uspjeha ?
-<logical form id=5421>	( lambda ?x ( mso:tv.program.episode_running_time between_two_worlds ?x ) ||| ( lambda ?x ( mso:tv.program.episode_running_time mistika_uspjeha ?x ) )
+<logical form id=5421>	( lambda ?x ( mso:tv.program.episode_running_time between_two_worlds ?x ) ) ||| ( lambda ?x ( mso:tv.program.episode_running_time mistika_uspjeha ?x ) )
 <parameters id=5421>	between_two_worlds (entity) [4,6] @Q1 ||| mistika_uspjeha (entity) [6,7] @Q2
 <question type id=5421>	multi-turn-predicate
 ==================================================
 <question id=5422>	t.i. and tiny: the family hustle was created by ||| what about with respect to the tv program el casting ?
-<logical form id=5422>	( lambda ?x ( mso:tv.program.program_creator t.i._and_tiny:_the_family_hustle ?x ) ||| ( lambda ?x ( mso:tv.program.program_creator el_casting ?x ) )
+<logical form id=5422>	( lambda ?x ( mso:tv.program.program_creator t.i._and_tiny:_the_family_hustle ?x ) ) ||| ( lambda ?x ( mso:tv.program.program_creator el_casting ?x ) )
 <parameters id=5422>	t.i._and_tiny:_the_family_hustle (entity) [0,5] @Q1 ||| el_casting (entity) [8,9] @Q2
 <question type id=5422>	multi-turn-predicate
 ==================================================
 <question id=5423>	which is ken crawford 's football position ||| and tell me about tyler larsen ?
-<logical form id=5423>	( lambda ?x ( mso:american_football.player.position ken_crawford ?x ) ||| ( lambda ?x ( mso:american_football.player.position tyler_larsen ?x ) )
+<logical form id=5423>	( lambda ?x ( mso:american_football.player.position ken_crawford ?x ) ) ||| ( lambda ?x ( mso:american_football.player.position tyler_larsen ?x ) )
 <parameters id=5423>	ken_crawford (entity) [2,3] @Q1 ||| tyler_larsen (entity) [4,5] @Q2
 <question type id=5423>	multi-turn-predicate
 ==================================================
 <question id=5424>	what day was charles toppin born ||| what about for ernie o'malley ?
-<logical form id=5424>	( lambda ?x ( mso:biology.organism.date_of_birth charles_toppin ?x ) ||| ( lambda ?x ( mso:biology.organism.date_of_birth ernie_o'malley ?x ) )
+<logical form id=5424>	( lambda ?x ( mso:biology.organism.date_of_birth charles_toppin ?x ) ) ||| ( lambda ?x ( mso:biology.organism.date_of_birth ernie_o'malley ?x ) )
 <parameters id=5424>	charles_toppin (entity) [3,4] @Q1 ||| ernie_o'malley (entity) [3,4] @Q2
 <question type id=5424>	multi-turn-predicate
 ==================================================
 <question id=5425>	which company is developers heroes of might and magic: complete edition ||| and with regards to super marionoid ?
-<logical form id=5425>	( lambda ?x ( mso:cvg.computer_videogame.developer heroes_of_might_and_magic:_complete_edition ?x ) ||| ( lambda ?x ( mso:cvg.computer_videogame.developer super_marionoid ?x ) )
+<logical form id=5425>	( lambda ?x ( mso:cvg.computer_videogame.developer heroes_of_might_and_magic:_complete_edition ?x ) ) ||| ( lambda ?x ( mso:cvg.computer_videogame.developer super_marionoid ?x ) )
 <parameters id=5425>	heroes_of_might_and_magic:_complete_edition (entity) [4,10] @Q1 ||| super_marionoid (entity) [4,5] @Q2
 <question type id=5425>	multi-turn-predicate
 ==================================================
 <question id=5426>	which is the sharon academy 's colors ||| and with respect to loudoun county academy of science ?
-<logical form id=5426>	( lambda ?x ( mso:education.educational_institution.color the_sharon_academy ?x ) ||| ( lambda ?x ( mso:education.educational_institution.color loudoun_county_academy_of_science ?x ) )
+<logical form id=5426>	( lambda ?x ( mso:education.educational_institution.color the_sharon_academy ?x ) ) ||| ( lambda ?x ( mso:education.educational_institution.color loudoun_county_academy_of_science ?x ) )
 <parameters id=5426>	the_sharon_academy (entity) [2,4] @Q1 ||| loudoun_county_academy_of_science (entity) [4,8] @Q2
 <question type id=5426>	multi-turn-predicate
 ==================================================
 <question id=5427>	mary sarah agliotta directed movie ||| and with regards to rod fontana 's?
-<logical form id=5427>	( lambda ?x ( mso:film.director.film mary_sarah_agliotta ?x ) ||| ( lambda ?x ( mso:film.director.film rod_fontana ?x ) )
+<logical form id=5427>	( lambda ?x ( mso:film.director.film mary_sarah_agliotta ?x ) ) ||| ( lambda ?x ( mso:film.director.film rod_fontana ?x ) )
 <parameters id=5427>	mary_sarah_agliotta (entity) [0,2] @Q1 ||| rod_fontana (entity) [4,5] @Q2
 <question type id=5427>	multi-turn-predicate
 ==================================================
 <question id=5428>	point at which tributyltin oxide melts ||| and at what point does it happen for cobalt(ii) naphthenate ?
-<logical form id=5428>	( lambda ?x ( mso:chemistry.chemical_compound.melting_point tributyltin_oxide ?x ) ||| ( lambda ?x ( mso:chemistry.chemical_compound.melting_point cobalt(ii)_naphthenate ?x ) )
+<logical form id=5428>	( lambda ?x ( mso:chemistry.chemical_compound.melting_point tributyltin_oxide ?x ) ) ||| ( lambda ?x ( mso:chemistry.chemical_compound.melting_point cobalt(ii)_naphthenate ?x ) )
 <parameters id=5428>	tributyltin_oxide (entity) [3,4] @Q1 ||| cobalt(ii)_naphthenate (entity) [8,9] @Q2
 <question type id=5428>	multi-turn-predicate
 ==================================================
 <question id=5429>	mascot franklin academy ||| tell me who it is for mapleton junior/senior high school ?
-<logical form id=5429>	( lambda ?x ( mso:education.educational_institution.school_mascot franklin_academy ?x ) ||| ( lambda ?x ( mso:education.educational_institution.school_mascot mapleton_junior/senior_high_school ?x ) )
+<logical form id=5429>	( lambda ?x ( mso:education.educational_institution.school_mascot franklin_academy ?x ) ) ||| ( lambda ?x ( mso:education.educational_institution.school_mascot mapleton_junior/senior_high_school ?x ) )
 <parameters id=5429>	franklin_academy (entity) [1,2] @Q1 ||| mapleton_junior/senior_high_school (entity) [6,9] @Q2
 <question type id=5429>	multi-turn-predicate
 ==================================================
 <question id=5430>	who is composer of blood ties: the legend of hammerhead ||| and director of dejimon adobenchâ tri 2: ketsui ) ?
-<logical form id=5430>	( lambda ?x ( mso:film.film.music blood_ties:_the_legend_of_hammerhead ?x ) ||| ( lambda ?x ( mso:film.film.music dejimon_adobenchâ_tri_2:_ketsui ?x ) )
+<logical form id=5430>	( lambda ?x ( mso:film.film.music blood_ties:_the_legend_of_hammerhead ?x ) ) ||| ( lambda ?x ( mso:film.film.music dejimon_adobenchâ_tri_2:_ketsui ?x ) )
 <parameters id=5430>	blood_ties:_the_legend_of_hammerhead (entity) [4,9] @Q1 ||| dejimon_adobenchâ_tri_2:_ketsui (entity) [3,7] @Q2
 <question type id=5430>	multi-turn-predicate
 ==================================================
 <question id=5431>	what is active ingredients in good neighbor pharmacy children's ibuprofen ||| and how about cal oys ?
-<logical form id=5431>	( lambda ?x ( mso:medicine.drug_brand.active_ingredients good_neighbor_pharmacy_children's_ibuprofen ?x ) ||| ( lambda ?x ( mso:medicine.drug_brand.active_ingredients cal_oys ?x ) )
+<logical form id=5431>	( lambda ?x ( mso:medicine.drug_brand.active_ingredients good_neighbor_pharmacy_children's_ibuprofen ?x ) ) ||| ( lambda ?x ( mso:medicine.drug_brand.active_ingredients cal_oys ?x ) )
 <parameters id=5431>	good_neighbor_pharmacy_children's_ibuprofen (entity) [5,9] @Q1 ||| cal_oys (entity) [3,4] @Q2
 <question type id=5431>	multi-turn-predicate
 ==================================================
 <question id=5432>	distance earth to blanco 1 ||| and what about it from the gliese 581 ?
-<logical form id=5432>	( lambda ?x ( mso:astronomy.celestial_object.cosmological_distance blanco_1 ?x ) ||| ( lambda ?x ( mso:astronomy.celestial_object.cosmological_distance gliese_581 ?x ) )
+<logical form id=5432>	( lambda ?x ( mso:astronomy.celestial_object.cosmological_distance blanco_1 ?x ) ) ||| ( lambda ?x ( mso:astronomy.celestial_object.cosmological_distance gliese_581 ?x ) )
 <parameters id=5432>	blanco_1 (entity) [3,4] @Q1 ||| gliese_581 (entity) [6,7] @Q2
 <question type id=5432>	multi-turn-predicate
 ==================================================
 <question id=5433>	what is cosmological distance of wise 0734−7157 ||| and what about it from the ngc 6822 ?
-<logical form id=5433>	( lambda ?x ( mso:astronomy.celestial_object.cosmological_distance wise_0734−7157 ?x ) ||| ( lambda ?x ( mso:astronomy.celestial_object.cosmological_distance ngc_6822 ?x ) )
+<logical form id=5433>	( lambda ?x ( mso:astronomy.celestial_object.cosmological_distance wise_0734−7157 ?x ) ) ||| ( lambda ?x ( mso:astronomy.celestial_object.cosmological_distance ngc_6822 ?x ) )
 <parameters id=5433>	wise_0734−7157 (entity) [5,6] @Q1 ||| ngc_6822 (entity) [6,7] @Q2
 <question type id=5433>	multi-turn-predicate
 ==================================================
 <question id=5434>	when is game super skweek release date ||| tell me for the game puppy palace
-<logical form id=5434>	( lambda ?x ( mso:cvg.computer_videogame.release_date super_skweek ?x ) ||| ( lambda ?x ( mso:cvg.computer_videogame.release_date puppy_palace ?x ) )
+<logical form id=5434>	( lambda ?x ( mso:cvg.computer_videogame.release_date super_skweek ?x ) ) ||| ( lambda ?x ( mso:cvg.computer_videogame.release_date puppy_palace ?x ) )
 <parameters id=5434>	super_skweek (entity) [3,4] @Q1 ||| puppy_palace (entity) [5,6] @Q2
 <question type id=5434>	multi-turn-predicate
 ==================================================
 <question id=5435>	the santa express 's date of release ||| tell me for the game panic restaurant
-<logical form id=5435>	( lambda ?x ( mso:cvg.computer_videogame.release_date the_santa_express ?x ) ||| ( lambda ?x ( mso:cvg.computer_videogame.release_date panic_restaurant ?x ) )
+<logical form id=5435>	( lambda ?x ( mso:cvg.computer_videogame.release_date the_santa_express ?x ) ) ||| ( lambda ?x ( mso:cvg.computer_videogame.release_date panic_restaurant ?x ) )
 <parameters id=5435>	the_santa_express (entity) [0,2] @Q1 ||| panic_restaurant (entity) [5,6] @Q2
 <question type id=5435>	multi-turn-predicate
 ==================================================
 <question id=5436>	mark rylance quotes ||| tell me for thomas john barnardo
-<logical form id=5436>	( lambda ?x ( mso:people.person.quotation mark_rylance ?x ) ||| ( lambda ?x ( mso:people.person.quotation thomas_john_barnardo ?x ) )
+<logical form id=5436>	( lambda ?x ( mso:people.person.quotation mark_rylance ?x ) ) ||| ( lambda ?x ( mso:people.person.quotation thomas_john_barnardo ?x ) )
 <parameters id=5436>	mark_rylance (entity) [0,1] @Q1 ||| thomas_john_barnardo (entity) [3,5] @Q2
 <question type id=5436>	multi-turn-predicate
 ==================================================
 <question id=5437>	date founded bailey house ||| and for chitaraque ?
-<logical form id=5437>	( lambda ?x ( mso:location.dated_location.date_founded bailey_house ?x ) ||| ( lambda ?x ( mso:location.dated_location.date_founded chitaraque ?x ) )
+<logical form id=5437>	( lambda ?x ( mso:location.dated_location.date_founded bailey_house ?x ) ) ||| ( lambda ?x ( mso:location.dated_location.date_founded chitaraque ?x ) )
 <parameters id=5437>	bailey_house (entity) [2,3] @Q1 ||| chitaraque (entity) [2,2] @Q2
 <question type id=5437>	multi-turn-predicate
 ==================================================
 <question id=5438>	krypton number of electrons per shell ||| what about lead ?
-<logical form id=5438>	( lambda ?x ( mso:chemistry.chemical_element.electrons_per_shell krypton ?x ) ||| ( lambda ?x ( mso:chemistry.chemical_element.electrons_per_shell lead ?x ) )
+<logical form id=5438>	( lambda ?x ( mso:chemistry.chemical_element.electrons_per_shell krypton ?x ) ) ||| ( lambda ?x ( mso:chemistry.chemical_element.electrons_per_shell lead ?x ) )
 <parameters id=5438>	krypton (entity) [0,0] @Q1 ||| lead (entity) [2,2] @Q2
 <question type id=5438>	multi-turn-predicate
 ==================================================
 <question id=5439>	stephano square miles ||| how about callisto ?
-<logical form id=5439>	( lambda ?x ( mso:astronomy.celestial_object.surface_area stephano ?x ) ||| ( lambda ?x ( mso:astronomy.celestial_object.surface_area callisto ?x ) )
+<logical form id=5439>	( lambda ?x ( mso:astronomy.celestial_object.surface_area stephano ?x ) ) ||| ( lambda ?x ( mso:astronomy.celestial_object.surface_area callisto ?x ) )
 <parameters id=5439>	stephano (entity) [0,0] @Q1 ||| callisto (entity) [2,2] @Q2
 <question type id=5439>	multi-turn-predicate
 ==================================================
 <question id=5440>	duration for leap-the-dips ||| how about saw – the ride ?
-<logical form id=5440>	( lambda ?x ( mso:amusement_parks.ride.duration leap-the-dips ?x ) ||| ( lambda ?x ( mso:amusement_parks.ride.duration saw_–_the_ride ?x ) )
+<logical form id=5440>	( lambda ?x ( mso:amusement_parks.ride.duration leap-the-dips ?x ) ) ||| ( lambda ?x ( mso:amusement_parks.ride.duration saw_–_the_ride ?x ) )
 <parameters id=5440>	leap-the-dips (entity) [2,2] @Q1 ||| saw_–_the_ride (entity) [2,5] @Q2
 <question type id=5440>	multi-turn-predicate
 ==================================================
 <question id=5441>	where is country of origin of hotel 13 ||| tell me for orkney snork nie! ?
-<logical form id=5441>	( lambda ?x ( mso:tv.program.country_of_origin hotel_13 ?x ) ||| ( lambda ?x ( mso:tv.program.country_of_origin orkney_snork_nie! ?x ) )
+<logical form id=5441>	( lambda ?x ( mso:tv.program.country_of_origin hotel_13 ?x ) ) ||| ( lambda ?x ( mso:tv.program.country_of_origin orkney_snork_nie! ?x ) )
 <parameters id=5441>	hotel_13 (entity) [6,7] @Q1 ||| orkney_snork_nie! (entity) [3,5] @Q2
 <question type id=5441>	multi-turn-predicate
 ==================================================
 <question id=5442>	michael woolery 's parents ||| what about for emily olver ?
-<logical form id=5442>	( lambda ?x ( mso:biology.organism.parents michael_woolery ?x ) ||| ( lambda ?x ( mso:biology.organism.parents emily_olver ?x ) )
+<logical form id=5442>	( lambda ?x ( mso:biology.organism.parents michael_woolery ?x ) ) ||| ( lambda ?x ( mso:biology.organism.parents emily_olver ?x ) )
 <parameters id=5442>	michael_woolery (entity) [0,1] @Q1 ||| emily_olver (entity) [3,4] @Q2
 <question type id=5442>	multi-turn-predicate
 ==================================================
 <question id=5443>	number of inversions for the flying cobras ||| how about for hollywood rip ride rockit ?
-<logical form id=5443>	( lambda ?x ( mso:amusement_parks.ride.inversions the_flying_cobras ?x ) ||| ( lambda ?x ( mso:amusement_parks.ride.inversions hollywood_rip_ride_rockit ?x ) )
+<logical form id=5443>	( lambda ?x ( mso:amusement_parks.ride.inversions the_flying_cobras ?x ) ) ||| ( lambda ?x ( mso:amusement_parks.ride.inversions hollywood_rip_ride_rockit ?x ) )
 <parameters id=5443>	the_flying_cobras (entity) [4,6] @Q1 ||| hollywood_rip_ride_rockit (entity) [3,6] @Q2
 <question type id=5443>	multi-turn-predicate
 ==================================================
 <question id=5444>	5541 seimei discovery site ||| how about for 583 klotilde ?
-<logical form id=5444>	( lambda ?x ( mso:astronomy.astronomical_discovery.discovery_site 5541_seimei ?x ) ||| ( lambda ?x ( mso:astronomy.astronomical_discovery.discovery_site 583_klotilde ?x ) )
+<logical form id=5444>	( lambda ?x ( mso:astronomy.astronomical_discovery.discovery_site 5541_seimei ?x ) ) ||| ( lambda ?x ( mso:astronomy.astronomical_discovery.discovery_site 583_klotilde ?x ) )
 <parameters id=5444>	5541_seimei (entity) [0,1] @Q1 ||| 583_klotilde (entity) [3,4] @Q2
 <question type id=5444>	multi-turn-predicate
 ==================================================
