@@ -35799,142 +35799,142 @@
 <question type id=7160>	multi-turn-entity
 ==================================================
 <question id=7161>	density of 148780 altjira ||| and of 238p/read ?
-<logical form id=7161>	( lambda ?x ( mso:astronomy.celestial_object.mean_density 148780_altjira ?x ) ||| ( lambda ?x ( mso:astronomy.celestial_object.mean_density 238p/read ?x ) )
+<logical form id=7161>	( lambda ?x ( mso:astronomy.celestial_object.mean_density 148780_altjira ?x ) ) ||| ( lambda ?x ( mso:astronomy.celestial_object.mean_density 238p/read ?x ) )
 <parameters id=7161>	148780_altjira (entity) [2,3] @Q1 ||| 238p/read (entity) [2,2] @Q2
 <question type id=7161>	multi-turn-predicate
 ==================================================
 <question id=7162>	what is mass for delta orionis ca ||| and for solar astronomy ?
-<logical form id=7162>	( lambda ?x ( mso:astronomy.star.mass_m delta_orionis_ca ?x ) ||| ( lambda ?x ( mso:astronomy.star.mass_m solar_astronomy ?x ) )
+<logical form id=7162>	( lambda ?x ( mso:astronomy.star.mass_m delta_orionis_ca ?x ) ) ||| ( lambda ?x ( mso:astronomy.star.mass_m solar_astronomy ?x ) )
 <parameters id=7162>	delta_orionis_ca (entity) [4,6] @Q1 ||| solar_astronomy (entity) [2,3] @Q2
 <question type id=7162>	multi-turn-predicate
 ==================================================
 <question id=7163>	what is arkie shibley 's death date ||| how about elwes, alfred ’s ?
-<logical form id=7163>	( lambda ?x ( mso:biology.deceased_organism.date_of_death arkie_shibley ?x ) ||| ( lambda ?x ( mso:biology.deceased_organism.date_of_death elwes,_alfred ?x ) )
+<logical form id=7163>	( lambda ?x ( mso:biology.deceased_organism.date_of_death arkie_shibley ?x ) ) ||| ( lambda ?x ( mso:biology.deceased_organism.date_of_death elwes,_alfred ?x ) )
 <parameters id=7163>	arkie_shibley (entity) [2,3] @Q1 ||| elwes,_alfred (entity) [2,3] @Q2
 <question type id=7163>	multi-turn-predicate
 ==================================================
 <question id=7164>	albert reed birth place ||| and david choquehuanca ’s ?
-<logical form id=7164>	( lambda ?x ( mso:biology.organism.place_of_birth albert_reed ?x ) ||| ( lambda ?x ( mso:biology.organism.place_of_birth david_choquehuanca ?x ) )
+<logical form id=7164>	( lambda ?x ( mso:biology.organism.place_of_birth albert_reed ?x ) ) ||| ( lambda ?x ( mso:biology.organism.place_of_birth david_choquehuanca ?x ) )
 <parameters id=7164>	albert_reed (entity) [0,1] @Q1 ||| david_choquehuanca (entity) [1,2] @Q2
 <question type id=7164>	multi-turn-predicate
 ==================================================
 <question id=7165>	what is word count floods! ||| what about for the book the girl from the tar paper school: barbara rose johns and the advent of the civil rights movement ) ?
-<logical form id=7165>	( lambda ?x ( mso:book.written_work.word_count floods! ?x ) ||| ( lambda ?x ( mso:book.written_work.word_count the_girl_from_the_tar_paper_school:_barbara_rose_johns_and_the_advent_of_the_civil_rights_movement ?x ) )
+<logical form id=7165>	( lambda ?x ( mso:book.written_work.word_count floods! ?x ) ) ||| ( lambda ?x ( mso:book.written_work.word_count the_girl_from_the_tar_paper_school:_barbara_rose_johns_and_the_advent_of_the_civil_rights_movement ?x ) )
 <parameters id=7165>	floods! (entity) [4,4] @Q1 ||| the_girl_from_the_tar_paper_school:_barbara_rose_johns_and_the_advent_of_the_civil_rights_movement (entity) [5,22] @Q2
 <question type id=7165>	multi-turn-predicate
 ==================================================
 <question id=7166>	where is origins for kakat mitatut lake ||| and of scituate reservoir ?
-<logical form id=7166>	( lambda ?x ( mso:geography.lake.inflow kakat_mitatut_lake ?x ) ||| ( lambda ?x ( mso:geography.lake.inflow scituate_reservoir ?x ) )
+<logical form id=7166>	( lambda ?x ( mso:geography.lake.inflow kakat_mitatut_lake ?x ) ) ||| ( lambda ?x ( mso:geography.lake.inflow scituate_reservoir ?x ) )
 <parameters id=7166>	kakat_mitatut_lake (entity) [4,6] @Q1 ||| scituate_reservoir (entity) [2,3] @Q2
 <question type id=7166>	multi-turn-predicate
 ==================================================
 <question id=7167>	sean ahrens 's companies founded ||| and for heehwa choi ?
-<logical form id=7167>	( lambda ?x ( mso:organization.founder.organizations_founded sean_ahrens ?x ) ||| ( lambda ?x ( mso:organization.founder.organizations_founded heehwa_choi ?x ) )
+<logical form id=7167>	( lambda ?x ( mso:organization.founder.organizations_founded sean_ahrens ?x ) ) ||| ( lambda ?x ( mso:organization.founder.organizations_founded heehwa_choi ?x ) )
 <parameters id=7167>	sean_ahrens (entity) [0,1] @Q1 ||| heehwa_choi (entity) [2,3] @Q2
 <question type id=7167>	multi-turn-predicate
 ==================================================
 <question id=7168>	infante ferdinand of portugal 's birth date ||| what about sarah j. bryan ?
-<logical form id=7168>	( lambda ?x ( mso:people.person.date_of_birth infante_ferdinand_of_portugal ?x ) ||| ( lambda ?x ( mso:people.person.date_of_birth sarah_j._bryan ?x ) )
+<logical form id=7168>	( lambda ?x ( mso:people.person.date_of_birth infante_ferdinand_of_portugal ?x ) ) ||| ( lambda ?x ( mso:people.person.date_of_birth sarah_j._bryan ?x ) )
 <parameters id=7168>	infante_ferdinand_of_portugal (entity) [0,3] @Q1 ||| sarah_j._bryan (entity) [2,4] @Q2
 <question type id=7168>	multi-turn-predicate
 ==================================================
 <question id=7169>	what is orbital order of hat-p-13b ||| what about for amalthea ?
-<logical form id=7169>	( lambda ?x ( mso:astronomy.orbital_relationship.orbital_order hat-p-13b ?x ) ||| ( lambda ?x ( mso:astronomy.orbital_relationship.orbital_order amalthea ?x ) )
+<logical form id=7169>	( lambda ?x ( mso:astronomy.orbital_relationship.orbital_order hat-p-13b ?x ) ) ||| ( lambda ?x ( mso:astronomy.orbital_relationship.orbital_order amalthea ?x ) )
 <parameters id=7169>	hat-p-13b (entity) [5,5] @Q1 ||| amalthea (entity) [3,3] @Q2
 <question type id=7169>	multi-turn-predicate
 ==================================================
 <question id=7170>	rank mexican red rump tarantula ||| and regarding trigonometopus ?
-<logical form id=7170>	( lambda ?x ( mso:biology.organism_classification.higher_classification mexican_red_rump_tarantula ?x ) ||| ( lambda ?x ( mso:biology.organism_classification.higher_classification trigonometopus ?x ) )
+<logical form id=7170>	( lambda ?x ( mso:biology.organism_classification.higher_classification mexican_red_rump_tarantula ?x ) ) ||| ( lambda ?x ( mso:biology.organism_classification.higher_classification trigonometopus ?x ) )
 <parameters id=7170>	mexican_red_rump_tarantula (entity) [1,4] @Q1 ||| trigonometopus (entity) [2,2] @Q2
 <question type id=7170>	multi-turn-predicate
 ==================================================
 <question id=7171>	editors of movie pedro ||| and who were they for the film angels on tap ) ?
-<logical form id=7171>	( lambda ?x ( mso:film.film.editor pedro ?x ) ||| ( lambda ?x ( mso:film.film.editor angels_on_tap ?x ) )
+<logical form id=7171>	( lambda ?x ( mso:film.film.editor pedro ?x ) ) ||| ( lambda ?x ( mso:film.film.editor angels_on_tap ?x ) )
 <parameters id=7171>	pedro (entity) [3,3] @Q1 ||| angels_on_tap (entity) [7,9] @Q2
 <question type id=7171>	multi-turn-predicate
 ==================================================
 <question id=7172>	genres interlude in prague ||| how about with respect to the film the yaa girlz and the deadly sparks ) ?
-<logical form id=7172>	( lambda ?x ( mso:film.film.genre interlude_in_prague ?x ) ||| ( lambda ?x ( mso:film.film.genre the_yaa_girlz_and_the_deadly_sparks ?x ) )
+<logical form id=7172>	( lambda ?x ( mso:film.film.genre interlude_in_prague ?x ) ) ||| ( lambda ?x ( mso:film.film.genre the_yaa_girlz_and_the_deadly_sparks ?x ) )
 <parameters id=7172>	interlude_in_prague (entity) [1,3] @Q1 ||| the_yaa_girlz_and_the_deadly_sparks (entity) [7,13] @Q2
 <question type id=7172>	multi-turn-predicate
 ==================================================
 <question id=7173>	what formula for digermane ||| and concerning 2-ethyl-1-butanol ?
-<logical form id=7173>	( lambda ?x ( mso:chemistry.chemical_compound.formula digermane ?x ) ||| ( lambda ?x ( mso:chemistry.chemical_compound.formula 2-ethyl-1-butanol ?x ) )
+<logical form id=7173>	( lambda ?x ( mso:chemistry.chemical_compound.formula digermane ?x ) ) ||| ( lambda ?x ( mso:chemistry.chemical_compound.formula 2-ethyl-1-butanol ?x ) )
 <parameters id=7173>	digermane (entity) [3,3] @Q1 ||| 2-ethyl-1-butanol (entity) [2,2] @Q2
 <question type id=7173>	multi-turn-predicate
 ==================================================
 <question id=7174>	who is game bootcamp academy 's developing companies ||| and what about raving rabbids party collection ?
-<logical form id=7174>	( lambda ?x ( mso:cvg.computer_videogame.developer bootcamp_academy ?x ) ||| ( lambda ?x ( mso:cvg.computer_videogame.developer raving_rabbids_party_collection ?x ) )
+<logical form id=7174>	( lambda ?x ( mso:cvg.computer_videogame.developer bootcamp_academy ?x ) ) ||| ( lambda ?x ( mso:cvg.computer_videogame.developer raving_rabbids_party_collection ?x ) )
 <parameters id=7174>	bootcamp_academy (entity) [3,4] @Q1 ||| raving_rabbids_party_collection (entity) [3,6] @Q2
 <question type id=7174>	multi-turn-predicate
 ==================================================
 <question id=7175>	which is school colors of enumclaw sr high school ||| and how about panghulo national high school ?
-<logical form id=7175>	( lambda ?x ( mso:education.educational_institution.color enumclaw_sr_high_school ?x ) ||| ( lambda ?x ( mso:education.educational_institution.color panghulo_national_high_school ?x ) )
+<logical form id=7175>	( lambda ?x ( mso:education.educational_institution.color enumclaw_sr_high_school ?x ) ) ||| ( lambda ?x ( mso:education.educational_institution.color panghulo_national_high_school ?x ) )
 <parameters id=7175>	enumclaw_sr_high_school (entity) [5,8] @Q1 ||| panghulo_national_high_school (entity) [3,6] @Q2
 <question type id=7175>	multi-turn-predicate
 ==================================================
 <question id=7176>	depth watkins lake ||| and regarding lake allison ?
-<logical form id=7176>	( lambda ?x ( mso:geography.body_of_water.depth watkins_lake ?x ) ||| ( lambda ?x ( mso:geography.body_of_water.depth lake_allison ?x ) )
+<logical form id=7176>	( lambda ?x ( mso:geography.body_of_water.depth watkins_lake ?x ) ) ||| ( lambda ?x ( mso:geography.body_of_water.depth lake_allison ?x ) )
 <parameters id=7176>	watkins_lake (entity) [1,2] @Q1 ||| lake_allison (entity) [2,3] @Q2
 <question type id=7176>	multi-turn-predicate
 ==================================================
 <question id=7177>	olivia lake water depth ||| and regarding plötzensee ?
-<logical form id=7177>	( lambda ?x ( mso:geography.body_of_water.depth olivia_lake ?x ) ||| ( lambda ?x ( mso:geography.body_of_water.depth plötzensee ?x ) )
+<logical form id=7177>	( lambda ?x ( mso:geography.body_of_water.depth olivia_lake ?x ) ) ||| ( lambda ?x ( mso:geography.body_of_water.depth plötzensee ?x ) )
 <parameters id=7177>	olivia_lake (entity) [0,1] @Q1 ||| plötzensee (entity) [2,2] @Q2
 <question type id=7177>	multi-turn-predicate
 ==================================================
 <question id=7178>	scientific word for a symphyotrichum hallii ||| what is it for pseudacteon californiensis ?
-<logical form id=7178>	( lambda ?x ( mso:biology.organism_classification.scientific_name symphyotrichum_hallii ?x ) ||| ( lambda ?x ( mso:biology.organism_classification.scientific_name pseudacteon_californiensis ?x ) )
+<logical form id=7178>	( lambda ?x ( mso:biology.organism_classification.scientific_name symphyotrichum_hallii ?x ) ) ||| ( lambda ?x ( mso:biology.organism_classification.scientific_name pseudacteon_californiensis ?x ) )
 <parameters id=7178>	symphyotrichum_hallii (entity) [4,5] @Q1 ||| pseudacteon_californiensis (entity) [4,5] @Q2
 <question type id=7178>	multi-turn-predicate
 ==================================================
 <question id=7179>	anna greta määttä moisanen datesortascsingle daughter ||| and regarding robert hale teachout ?
-<logical form id=7179>	( lambda ?x ( mso:people.person.children anna_greta_määttä_moisanen ?x ) ||| ( lambda ?x ( mso:people.person.children robert_hale_teachout ?x ) )
+<logical form id=7179>	( lambda ?x ( mso:people.person.children anna_greta_määttä_moisanen ?x ) ) ||| ( lambda ?x ( mso:people.person.children robert_hale_teachout ?x ) )
 <parameters id=7179>	anna_greta_määttä_moisanen (entity) [0,3] @Q1 ||| robert_hale_teachout (entity) [2,4] @Q2
 <question type id=7179>	multi-turn-predicate
 ==================================================
 <question id=7180>	joyce douthwright 's height measurement ||| and how about worawut wangsawad ?
-<logical form id=7180>	( lambda ?x ( mso:people.person.height joyce_douthwright ?x ) ||| ( lambda ?x ( mso:people.person.height worawut_wangsawad ?x ) )
+<logical form id=7180>	( lambda ?x ( mso:people.person.height joyce_douthwright ?x ) ) ||| ( lambda ?x ( mso:people.person.height worawut_wangsawad ?x ) )
 <parameters id=7180>	joyce_douthwright (entity) [0,1] @Q1 ||| worawut_wangsawad (entity) [3,4] @Q2
 <question type id=7180>	multi-turn-predicate
 ==================================================
 <question id=7181>	which is constellation for 69 ceti ||| and how about 63 ceti ?
-<logical form id=7181>	( lambda ?x ( mso:astronomy.star.constellation 69_ceti ?x ) ||| ( lambda ?x ( mso:astronomy.star.constellation 63_ceti ?x ) )
+<logical form id=7181>	( lambda ?x ( mso:astronomy.star.constellation 69_ceti ?x ) ) ||| ( lambda ?x ( mso:astronomy.star.constellation 63_ceti ?x ) )
 <parameters id=7181>	69_ceti (entity) [4,5] @Q1 ||| 63_ceti (entity) [3,4] @Q2
 <question type id=7181>	multi-turn-predicate
 ==================================================
 <question id=7182>	casting directors tour de force ||| and about gloria ?
-<logical form id=7182>	( lambda ?x ( mso:film.film.casting_director tour_de_force ?x ) ||| ( lambda ?x ( mso:film.film.casting_director gloria ?x ) )
+<logical form id=7182>	( lambda ?x ( mso:film.film.casting_director tour_de_force ?x ) ) ||| ( lambda ?x ( mso:film.film.casting_director gloria ?x ) )
 <parameters id=7182>	tour_de_force (entity) [2,4] @Q1 ||| gloria (entity) [2,2] @Q2
 <question type id=7182>	multi-turn-predicate
 ==================================================
 <question id=7183>	final episode of abt ur luv release date ||| and what about for the tv program gidi up ?
-<logical form id=7183>	( lambda ?x ( mso:tv.program.air_date_of_final_episode abt_ur_luv ?x ) ||| ( lambda ?x ( mso:tv.program.air_date_of_final_episode gidi_up ?x ) )
+<logical form id=7183>	( lambda ?x ( mso:tv.program.air_date_of_final_episode abt_ur_luv ?x ) ) ||| ( lambda ?x ( mso:tv.program.air_date_of_final_episode gidi_up ?x ) )
 <parameters id=7183>	abt_ur_luv (entity) [3,5] @Q1 ||| gidi_up (entity) [7,8] @Q2
 <question type id=7183>	multi-turn-predicate
 ==================================================
 <question id=7184>	radius 8 andromedae m ||| and how about the bk camelopardalis ?
-<logical form id=7184>	( lambda ?x ( mso:astronomy.celestial_object.mean_radius 8_andromedae ?x ) ||| ( lambda ?x ( mso:astronomy.celestial_object.mean_radius bk_camelopardalis ?x ) )
+<logical form id=7184>	( lambda ?x ( mso:astronomy.celestial_object.mean_radius 8_andromedae ?x ) ) ||| ( lambda ?x ( mso:astronomy.celestial_object.mean_radius bk_camelopardalis ?x ) )
 <parameters id=7184>	8_andromedae (entity) [1,2] @Q1 ||| bk_camelopardalis (entity) [4,5] @Q2
 <question type id=7184>	multi-turn-predicate
 ==================================================
 <question id=7185>	elevation of lac la martre above sea level ||| what is it for morris reservoir ?
-<logical form id=7185>	( lambda ?x ( mso:geography.lake.surface_elevation lac_la_martre ?x ) ||| ( lambda ?x ( mso:geography.lake.surface_elevation morris_reservoir ?x ) )
+<logical form id=7185>	( lambda ?x ( mso:geography.lake.surface_elevation lac_la_martre ?x ) ) ||| ( lambda ?x ( mso:geography.lake.surface_elevation morris_reservoir ?x ) )
 <parameters id=7185>	lac_la_martre (entity) [2,4] @Q1 ||| morris_reservoir (entity) [4,5] @Q2
 <question type id=7185>	multi-turn-predicate
 ==================================================
 <question id=7186>	country of origin for روزگار قریب ||| how about for the embassy ?
-<logical form id=7186>	( lambda ?x ( mso:tv.program.country_of_origin روزگار_قریب ?x ) ||| ( lambda ?x ( mso:tv.program.country_of_origin the_embassy ?x ) )
+<logical form id=7186>	( lambda ?x ( mso:tv.program.country_of_origin روزگار_قریب ?x ) ) ||| ( lambda ?x ( mso:tv.program.country_of_origin the_embassy ?x ) )
 <parameters id=7186>	روزگار_قریب (entity) [4,5] @Q1 ||| the_embassy (entity) [3,4] @Q2
 <question type id=7186>	multi-turn-predicate
 ==================================================
 <question id=7187>	what is proxima centauri 's luminosity ||| give me for hd 118203 ?
-<logical form id=7187>	( lambda ?x ( mso:astronomy.star.luminosity proxima_centauri ?x ) ||| ( lambda ?x ( mso:astronomy.star.luminosity hd_118203 ?x ) )
+<logical form id=7187>	( lambda ?x ( mso:astronomy.star.luminosity proxima_centauri ?x ) ) ||| ( lambda ?x ( mso:astronomy.star.luminosity hd_118203 ?x ) )
 <parameters id=7187>	proxima_centauri (entity) [2,3] @Q1 ||| hd_118203 (entity) [3,4] @Q2
 <question type id=7187>	multi-turn-predicate
 ==================================================
 <question id=7188>	what is manufacturer for grizzly ||| and for kanonen ?
-<logical form id=7188>	( lambda ?x ( mso:amusement_parks.ride.manufacturer grizzly ?x ) ||| ( lambda ?x ( mso:amusement_parks.ride.manufacturer kanonen ?x ) )
+<logical form id=7188>	( lambda ?x ( mso:amusement_parks.ride.manufacturer grizzly ?x ) ) ||| ( lambda ?x ( mso:amusement_parks.ride.manufacturer kanonen ?x ) )
 <parameters id=7188>	grizzly (entity) [4,4] @Q1 ||| kanonen (entity) [2,2] @Q2
 <question type id=7188>	multi-turn-predicate
 ==================================================
@@ -41389,177 +41389,177 @@
 <question type id=8278>	multi-turn-entity
 ==================================================
 <question id=8279>	what is famous canis familiarus domesticus types ||| what about for the species horse ?
-<logical form id=8279>	( lambda ?x ( mso:biology.domesticated_animal.breeds canis_familiarus_domesticus ?x ) ||| ( lambda ?x ( mso:biology.domesticated_animal.breeds horse ?x ) )
+<logical form id=8279>	( lambda ?x ( mso:biology.domesticated_animal.breeds canis_familiarus_domesticus ?x ) ) ||| ( lambda ?x ( mso:biology.domesticated_animal.breeds horse ?x ) )
 <parameters id=8279>	canis_familiarus_domesticus (entity) [3,5] @Q1 ||| horse (entity) [5,5] @Q2
 <question type id=8279>	multi-turn-predicate
 ==================================================
 <question id=8280>	where is lil pump 's birth place ||| how about of chaz miller ?
-<logical form id=8280>	( lambda ?x ( mso:biology.organism.place_of_birth lil_pump ?x ) ||| ( lambda ?x ( mso:biology.organism.place_of_birth chaz_miller ?x ) )
+<logical form id=8280>	( lambda ?x ( mso:biology.organism.place_of_birth lil_pump ?x ) ) ||| ( lambda ?x ( mso:biology.organism.place_of_birth chaz_miller ?x ) )
 <parameters id=8280>	lil_pump (entity) [2,3] @Q1 ||| chaz_miller (entity) [3,4] @Q2
 <question type id=8280>	multi-turn-predicate
 ==================================================
 <question id=8281>	bleach characters ||| and who are the ones in double face ?
-<logical form id=8281>	( lambda ?x ( mso:comic_books.series.featured_characters bleach ?x ) ||| ( lambda ?x ( mso:comic_books.series.featured_characters double_face ?x ) )
+<logical form id=8281>	( lambda ?x ( mso:comic_books.series.featured_characters bleach ?x ) ) ||| ( lambda ?x ( mso:comic_books.series.featured_characters double_face ?x ) )
 <parameters id=8281>	bleach (entity) [0,0] @Q1 ||| double_face (entity) [6,7] @Q2
 <question type id=8281>	multi-turn-predicate
 ==================================================
 <question id=8282>	countdown to final crisis 's main characters ||| and who are the ones in captain britain and mi13 ?
-<logical form id=8282>	( lambda ?x ( mso:comic_books.series.featured_characters countdown_to_final_crisis ?x ) ||| ( lambda ?x ( mso:comic_books.series.featured_characters captain_britain_and_mi13 ?x ) )
+<logical form id=8282>	( lambda ?x ( mso:comic_books.series.featured_characters countdown_to_final_crisis ?x ) ) ||| ( lambda ?x ( mso:comic_books.series.featured_characters captain_britain_and_mi13 ?x ) )
 <parameters id=8282>	countdown_to_final_crisis (entity) [0,3] @Q1 ||| captain_britain_and_mi13 (entity) [6,9] @Q2
 <question type id=8282>	multi-turn-predicate
 ==================================================
 <question id=8283>	who is film mystery team film art director ||| what about for the film horror of wonderland ) ?
-<logical form id=8283>	( lambda ?x ( mso:film.film.art_director mystery_team ?x ) ||| ( lambda ?x ( mso:film.film.art_director horror_of_wonderland ?x ) )
+<logical form id=8283>	( lambda ?x ( mso:film.film.art_director mystery_team ?x ) ) ||| ( lambda ?x ( mso:film.film.art_director horror_of_wonderland ?x ) )
 <parameters id=8283>	mystery_team (entity) [3,4] @Q1 ||| horror_of_wonderland (entity) [5,7] @Q2
 <question type id=8283>	multi-turn-predicate
 ==================================================
 <question id=8284>	produced bies for film cloud to ground production for produce this! ||| what about the one for the darkness ) ?
-<logical form id=8284>	( lambda ?x ( mso:film.film.producer cloud_to_ground_production_for_produce_this! ?x ) ||| ( lambda ?x ( mso:film.film.producer the_darkness ?x ) )
+<logical form id=8284>	( lambda ?x ( mso:film.film.producer cloud_to_ground_production_for_produce_this! ?x ) ) ||| ( lambda ?x ( mso:film.film.producer the_darkness ?x ) )
 <parameters id=8284>	cloud_to_ground_production_for_produce_this! (entity) [4,10] @Q1 ||| the_darkness (entity) [5,6] @Q2
 <question type id=8284>	multi-turn-predicate
 ==================================================
 <question id=8285>	what is cornbread, earl and me 's osts ||| what about it from de tu ventana a la mía ) ?
-<logical form id=8285>	( lambda ?x ( mso:film.film.soundtrack cornbread,_earl_and_me ?x ) ||| ( lambda ?x ( mso:film.film.soundtrack de_tu_ventana_a_la_mía ?x ) )
+<logical form id=8285>	( lambda ?x ( mso:film.film.soundtrack cornbread,_earl_and_me ?x ) ) ||| ( lambda ?x ( mso:film.film.soundtrack de_tu_ventana_a_la_mía ?x ) )
 <parameters id=8285>	cornbread,_earl_and_me (entity) [2,5] @Q1 ||| de_tu_ventana_a_la_mía (entity) [4,9] @Q2
 <question type id=8285>	multi-turn-predicate
 ==================================================
 <question id=8286>	inflow for ruppiner see ||| and what about prospect reservoir ’s ?
-<logical form id=8286>	( lambda ?x ( mso:geography.lake.inflow ruppiner_see ?x ) ||| ( lambda ?x ( mso:geography.lake.inflow prospect_reservoir ?x ) )
+<logical form id=8286>	( lambda ?x ( mso:geography.lake.inflow ruppiner_see ?x ) ) ||| ( lambda ?x ( mso:geography.lake.inflow prospect_reservoir ?x ) )
 <parameters id=8286>	ruppiner_see (entity) [2,3] @Q1 ||| prospect_reservoir (entity) [3,4] @Q2
 <question type id=8286>	multi-turn-predicate
 ==================================================
 <question id=8287>	which is gunpowder 's esrb rating ||| what about séance ?
-<logical form id=8287>	( lambda ?x ( mso:media_common.creative_work.content_rating gunpowder ?x ) ||| ( lambda ?x ( mso:media_common.creative_work.content_rating séance ?x ) )
+<logical form id=8287>	( lambda ?x ( mso:media_common.creative_work.content_rating gunpowder ?x ) ) ||| ( lambda ?x ( mso:media_common.creative_work.content_rating séance ?x ) )
 <parameters id=8287>	gunpowder (entity) [2,2] @Q1 ||| séance (entity) [2,2] @Q2
 <question type id=8287>	multi-turn-predicate
 ==================================================
 <question id=8288>	which organization phil beene founded ||| and who was it for jamie wong ?
-<logical form id=8288>	( lambda ?x ( mso:organization.founder.organizations_founded phil_beene ?x ) ||| ( lambda ?x ( mso:organization.founder.organizations_founded jamie_wong ?x ) )
+<logical form id=8288>	( lambda ?x ( mso:organization.founder.organizations_founded phil_beene ?x ) ) ||| ( lambda ?x ( mso:organization.founder.organizations_founded jamie_wong ?x ) )
 <parameters id=8288>	phil_beene (entity) [2,3] @Q1 ||| jamie_wong (entity) [5,6] @Q2
 <question type id=8288>	multi-turn-predicate
 ==================================================
 <question id=8289>	when is born kai niidas ||| and when is johannes fredrik jordman ’ ?
-<logical form id=8289>	( lambda ?x ( mso:people.person.date_of_birth kai_niidas ?x ) ||| ( lambda ?x ( mso:people.person.date_of_birth johannes_fredrik_jordman ?x ) )
+<logical form id=8289>	( lambda ?x ( mso:people.person.date_of_birth kai_niidas ?x ) ) ||| ( lambda ?x ( mso:people.person.date_of_birth johannes_fredrik_jordman ?x ) )
 <parameters id=8289>	kai_niidas (entity) [3,4] @Q1 ||| johannes_fredrik_jordman (entity) [3,5] @Q2
 <question type id=8289>	multi-turn-predicate
 ==================================================
 <question id=8290>	what is asteroid group for (9101) 1996 xg2 ||| and of 1579 herrick ?
-<logical form id=8290>	( lambda ?x ( mso:astronomy.asteroid.asteroid_group (9101)_1996_xg2 ?x ) ||| ( lambda ?x ( mso:astronomy.asteroid.asteroid_group 1579_herrick ?x ) )
+<logical form id=8290>	( lambda ?x ( mso:astronomy.asteroid.asteroid_group (9101)_1996_xg2 ?x ) ) ||| ( lambda ?x ( mso:astronomy.asteroid.asteroid_group 1579_herrick ?x ) )
 <parameters id=8290>	(9101)_1996_xg2 (entity) [5,7] @Q1 ||| 1579_herrick (entity) [2,3] @Q2
 <question type id=8290>	multi-turn-predicate
 ==================================================
 <question id=8291>	what is ranks guidraco ||| what about for groenbladia taylori ?
-<logical form id=8291>	( lambda ?x ( mso:biology.organism_classification.higher_classification guidraco ?x ) ||| ( lambda ?x ( mso:biology.organism_classification.higher_classification groenbladia_taylori ?x ) )
+<logical form id=8291>	( lambda ?x ( mso:biology.organism_classification.higher_classification guidraco ?x ) ) ||| ( lambda ?x ( mso:biology.organism_classification.higher_classification groenbladia_taylori ?x ) )
 <parameters id=8291>	guidraco (entity) [3,3] @Q1 ||| groenbladia_taylori (entity) [3,4] @Q2
 <question type id=8291>	multi-turn-predicate
 ==================================================
 <question id=8292>	who is developers game pq: practical intelligence quotient 2 ||| how about carnivores:dinosaur hunter pro ?
-<logical form id=8292>	( lambda ?x ( mso:cvg.computer_videogame.developer pq:_practical_intelligence_quotient_2 ?x ) ||| ( lambda ?x ( mso:cvg.computer_videogame.developer carnivores:dinosaur_hunter_pro ?x ) )
+<logical form id=8292>	( lambda ?x ( mso:cvg.computer_videogame.developer pq:_practical_intelligence_quotient_2 ?x ) ) ||| ( lambda ?x ( mso:cvg.computer_videogame.developer carnivores:dinosaur_hunter_pro ?x ) )
 <parameters id=8292>	pq:_practical_intelligence_quotient_2 (entity) [4,8] @Q1 ||| carnivores:dinosaur_hunter_pro (entity) [2,4] @Q2
 <question type id=8292>	multi-turn-predicate
 ==================================================
 <question id=8293>	what is colors for urban assembly new york harbor school ||| and with regards to school of natural sciences and psychology, liverpool john moores university ?
-<logical form id=8293>	( lambda ?x ( mso:education.educational_institution.color urban_assembly_new_york_harbor_school ?x ) ||| ( lambda ?x ( mso:education.educational_institution.color school_of_natural_sciences_and_psychology,_liverpool_john_moores_university ?x ) )
+<logical form id=8293>	( lambda ?x ( mso:education.educational_institution.color urban_assembly_new_york_harbor_school ?x ) ) ||| ( lambda ?x ( mso:education.educational_institution.color school_of_natural_sciences_and_psychology,_liverpool_john_moores_university ?x ) )
 <parameters id=8293>	urban_assembly_new_york_harbor_school (entity) [4,9] @Q1 ||| school_of_natural_sciences_and_psychology,_liverpool_john_moores_university (entity) [4,13] @Q2
 <question type id=8293>	multi-turn-predicate
 ==================================================
 <question id=8294>	film meyaadha maan ||| and what about light house ?
-<logical form id=8294>	( lambda ?x ( mso:music.soundtrack.film meyaadha_maan ?x ) ||| ( lambda ?x ( mso:music.soundtrack.film light_house ?x ) )
+<logical form id=8294>	( lambda ?x ( mso:music.soundtrack.film meyaadha_maan ?x ) ) ||| ( lambda ?x ( mso:music.soundtrack.film light_house ?x ) )
 <parameters id=8294>	meyaadha_maan (entity) [1,2] @Q1 ||| light_house (entity) [3,4] @Q2
 <question type id=8294>	multi-turn-predicate
 ==================================================
 <question id=8295>	country of nationalities paul matavire ||| what about for fungai mwarowa
-<logical form id=8295>	( lambda ?x ( mso:people.person.nationality_adjectival paul_matavire ?x ) ||| ( lambda ?x ( mso:people.person.nationality_adjectival fungai_mwarowa ?x ) )
+<logical form id=8295>	( lambda ?x ( mso:people.person.nationality_adjectival paul_matavire ?x ) ) ||| ( lambda ?x ( mso:people.person.nationality_adjectival fungai_mwarowa ?x ) )
 <parameters id=8295>	paul_matavire (entity) [3,4] @Q1 ||| fungai_mwarowa (entity) [3,4] @Q2
 <question type id=8295>	multi-turn-predicate
 ==================================================
 <question id=8296>	what is professions of jury rupin ||| what about andreas h. bitesnich ?
-<logical form id=8296>	( lambda ?x ( mso:people.person.profession jury_rupin ?x ) ||| ( lambda ?x ( mso:people.person.profession andreas_h._bitesnich ?x ) )
+<logical form id=8296>	( lambda ?x ( mso:people.person.profession jury_rupin ?x ) ) ||| ( lambda ?x ( mso:people.person.profession andreas_h._bitesnich ?x ) )
 <parameters id=8296>	jury_rupin (entity) [4,5] @Q1 ||| andreas_h._bitesnich (entity) [2,4] @Q2
 <question type id=8296>	multi-turn-predicate
 ==================================================
 <question id=8297>	how long is 4 vesta 's semi-major axis length ||| what about for the planet callisto ?
-<logical form id=8297>	( lambda ?x ( mso:astronomy.orbital_relationship.semi_major_axis 4_vesta ?x ) ||| ( lambda ?x ( mso:astronomy.orbital_relationship.semi_major_axis callisto ?x ) )
+<logical form id=8297>	( lambda ?x ( mso:astronomy.orbital_relationship.semi_major_axis 4_vesta ?x ) ) ||| ( lambda ?x ( mso:astronomy.orbital_relationship.semi_major_axis callisto ?x ) )
 <parameters id=8297>	4_vesta (entity) [3,4] @Q1 ||| callisto (entity) [5,5] @Q2
 <question type id=8297>	multi-turn-predicate
 ==================================================
 <question id=8298>	what is book gaston, the green-nosed alligator 's summary ||| and what’s live bait ) like ?
-<logical form id=8298>	( lambda ?x ( mso:book.written_work.synopsis gaston,_the_green-nosed_alligator ?x ) ||| ( lambda ?x ( mso:book.written_work.synopsis live_bait ?x ) )
+<logical form id=8298>	( lambda ?x ( mso:book.written_work.synopsis gaston,_the_green-nosed_alligator ?x ) ) ||| ( lambda ?x ( mso:book.written_work.synopsis live_bait ?x ) )
 <parameters id=8298>	gaston,_the_green-nosed_alligator (entity) [3,6] @Q1 ||| live_bait (entity) [2,3] @Q2
 <question type id=8298>	multi-turn-predicate
 ==================================================
 <question id=8299>	what is university of negros occidental – recoletos mascots ||| and who was it for osceola high school ?
-<logical form id=8299>	( lambda ?x ( mso:education.educational_institution.school_mascot university_of_negros_occidental_–_recoletos ?x ) ||| ( lambda ?x ( mso:education.educational_institution.school_mascot osceola_high_school ?x ) )
+<logical form id=8299>	( lambda ?x ( mso:education.educational_institution.school_mascot university_of_negros_occidental_–_recoletos ?x ) ) ||| ( lambda ?x ( mso:education.educational_institution.school_mascot osceola_high_school ?x ) )
 <parameters id=8299>	university_of_negros_occidental_–_recoletos (entity) [2,7] @Q1 ||| osceola_high_school (entity) [5,7] @Q2
 <question type id=8299>	multi-turn-predicate
 ==================================================
 <question id=8300>	what is rhinelander high mascot ||| and who was it for waxahachie global high school ?
-<logical form id=8300>	( lambda ?x ( mso:education.educational_institution.school_mascot rhinelander_high ?x ) ||| ( lambda ?x ( mso:education.educational_institution.school_mascot waxahachie_global_high_school ?x ) )
+<logical form id=8300>	( lambda ?x ( mso:education.educational_institution.school_mascot rhinelander_high ?x ) ) ||| ( lambda ?x ( mso:education.educational_institution.school_mascot waxahachie_global_high_school ?x ) )
 <parameters id=8300>	rhinelander_high (entity) [2,3] @Q1 ||| waxahachie_global_high_school (entity) [5,8] @Q2
 <question type id=8300>	multi-turn-predicate
 ==================================================
 <question id=8301>	progenies of juula tanne ||| and jacob warwick mcclure 's?
-<logical form id=8301>	( lambda ?x ( mso:people.person.children juula_tanne ?x ) ||| ( lambda ?x ( mso:people.person.children jacob_warwick_mcclure ?x ) )
+<logical form id=8301>	( lambda ?x ( mso:people.person.children juula_tanne ?x ) ) ||| ( lambda ?x ( mso:people.person.children jacob_warwick_mcclure ?x ) )
 <parameters id=8301>	juula_tanne (entity) [2,3] @Q1 ||| jacob_warwick_mcclure (entity) [1,3] @Q2
 <question type id=8301>	multi-turn-predicate
 ==================================================
 <question id=8302>	what is movie sequel to movie lawrence of arabia: disc 2 ||| and about jiken kisha: nerawareta jûdai ?
-<logical form id=8302>	( lambda ?x ( mso:film.film.sequel lawrence_of_arabia:_disc_2 ?x ) ||| ( lambda ?x ( mso:film.film.sequel jiken_kisha:_nerawareta_jûdai ?x ) )
+<logical form id=8302>	( lambda ?x ( mso:film.film.sequel lawrence_of_arabia:_disc_2 ?x ) ) ||| ( lambda ?x ( mso:film.film.sequel jiken_kisha:_nerawareta_jûdai ?x ) )
 <parameters id=8302>	lawrence_of_arabia:_disc_2 (entity) [6,10] @Q1 ||| jiken_kisha:_nerawareta_jûdai (entity) [2,5] @Q2
 <question type id=8302>	multi-turn-predicate
 ==================================================
 <question id=8303>	where is burial place montford mcgehee ||| and about william paulet, 1st marquess of winchester ’s ?
-<logical form id=8303>	( lambda ?x ( mso:people.deceased_person.place_of_burial montford_mcgehee ?x ) ||| ( lambda ?x ( mso:people.deceased_person.place_of_burial william_paulet,_1st_marquess_of_winchester ?x ) )
+<logical form id=8303>	( lambda ?x ( mso:people.deceased_person.place_of_burial montford_mcgehee ?x ) ) ||| ( lambda ?x ( mso:people.deceased_person.place_of_burial william_paulet,_1st_marquess_of_winchester ?x ) )
 <parameters id=8303>	montford_mcgehee (entity) [4,5] @Q1 ||| william_paulet,_1st_marquess_of_winchester (entity) [2,7] @Q2
 <question type id=8303>	multi-turn-predicate
 ==================================================
 <question id=8304>	what is body wars 's designer ||| who was it for granby manor ?
-<logical form id=8304>	( lambda ?x ( mso:amusement_parks.ride.designer body_wars ?x ) ||| ( lambda ?x ( mso:amusement_parks.ride.designer granby_manor ?x ) )
+<logical form id=8304>	( lambda ?x ( mso:amusement_parks.ride.designer body_wars ?x ) ) ||| ( lambda ?x ( mso:amusement_parks.ride.designer granby_manor ?x ) )
 <parameters id=8304>	body_wars (entity) [2,3] @Q1 ||| granby_manor (entity) [4,5] @Q2
 <question type id=8304>	multi-turn-predicate
 ==================================================
 <question id=8305>	who is tomobox founded by ||| what about the bableonaut.com ?
-<logical form id=8305>	( lambda ?x ( mso:organization.organization.founder tomobox ?x ) ||| ( lambda ?x ( mso:organization.organization.founder bableonaut.com ?x ) )
+<logical form id=8305>	( lambda ?x ( mso:organization.organization.founder tomobox ?x ) ) ||| ( lambda ?x ( mso:organization.organization.founder bableonaut.com ?x ) )
 <parameters id=8305>	tomobox (entity) [2,2] @Q1 ||| bableonaut.com (entity) [3,3] @Q2
 <question type id=8305>	multi-turn-predicate
 ==================================================
 <question id=8306>	what is martial art of sentoryū henri ||| tell me about kitataiki akeyoshi
-<logical form id=8306>	( lambda ?x ( mso:martial_arts.martial_artist.martial_art sentoryū_henri ?x ) ||| ( lambda ?x ( mso:martial_arts.martial_artist.martial_art kitataiki_akeyoshi ?x ) )
+<logical form id=8306>	( lambda ?x ( mso:martial_arts.martial_artist.martial_art sentoryū_henri ?x ) ) ||| ( lambda ?x ( mso:martial_arts.martial_artist.martial_art kitataiki_akeyoshi ?x ) )
 <parameters id=8306>	sentoryū_henri (entity) [5,6] @Q1 ||| kitataiki_akeyoshi (entity) [3,4] @Q2
 <question type id=8306>	multi-turn-predicate
 ==================================================
 <question id=8307>	lower classifications of microrhopias quixensis ||| how about spring snails ?
-<logical form id=8307>	( lambda ?x ( mso:biology.organism_classification.lower_classification microrhopias_quixensis ?x ) ||| ( lambda ?x ( mso:biology.organism_classification.lower_classification spring_snails ?x ) )
+<logical form id=8307>	( lambda ?x ( mso:biology.organism_classification.lower_classification microrhopias_quixensis ?x ) ) ||| ( lambda ?x ( mso:biology.organism_classification.lower_classification spring_snails ?x ) )
 <parameters id=8307>	microrhopias_quixensis (entity) [3,4] @Q1 ||| spring_snails (entity) [2,3] @Q2
 <question type id=8307>	multi-turn-predicate
 ==================================================
 <question id=8308>	what is number of electrons per shell for rhenium ||| tell me for neon ?
-<logical form id=8308>	( lambda ?x ( mso:chemistry.chemical_element.electrons_per_shell rhenium ?x ) ||| ( lambda ?x ( mso:chemistry.chemical_element.electrons_per_shell neon ?x ) )
+<logical form id=8308>	( lambda ?x ( mso:chemistry.chemical_element.electrons_per_shell rhenium ?x ) ) ||| ( lambda ?x ( mso:chemistry.chemical_element.electrons_per_shell neon ?x ) )
 <parameters id=8308>	rhenium (entity) [8,8] @Q1 ||| neon (entity) [3,3] @Q2
 <question type id=8308>	multi-turn-predicate
 ==================================================
 <question id=8309>	what diseases does pantoprazole prevent ||| and for phenoxybenzamine ?
-<logical form id=8309>	( lambda ?x ( mso:medicine.condition_prevention_factors.conditions_this_may_prevent pantoprazole ?x ) ||| ( lambda ?x ( mso:medicine.condition_prevention_factors.conditions_this_may_prevent phenoxybenzamine ?x ) )
+<logical form id=8309>	( lambda ?x ( mso:medicine.condition_prevention_factors.conditions_this_may_prevent pantoprazole ?x ) ) ||| ( lambda ?x ( mso:medicine.condition_prevention_factors.conditions_this_may_prevent phenoxybenzamine ?x ) )
 <parameters id=8309>	pantoprazole (entity) [3,3] @Q1 ||| phenoxybenzamine (entity) [2,2] @Q2
 <question type id=8309>	multi-turn-predicate
 ==================================================
 <question id=8310>	what is mass for n-ii ||| tell me for zenit-3f ?
-<logical form id=8310>	( lambda ?x ( mso:spaceflight.rocket.mass n-ii ?x ) ||| ( lambda ?x ( mso:spaceflight.rocket.mass zenit-3f ?x ) )
+<logical form id=8310>	( lambda ?x ( mso:spaceflight.rocket.mass n-ii ?x ) ) ||| ( lambda ?x ( mso:spaceflight.rocket.mass zenit-3f ?x ) )
 <parameters id=8310>	n-ii (entity) [4,4] @Q1 ||| zenit-3f (entity) [3,3] @Q2
 <question type id=8310>	multi-turn-predicate
 ==================================================
 <question id=8311>	movie produced by nicholas tabarrok ||| and by marylou and jerome bongiorno ?
-<logical form id=8311>	( lambda ?x ( mso:film.producer.film nicholas_tabarrok ?x ) ||| ( lambda ?x ( mso:film.producer.film marylou_and_jerome_bongiorno ?x ) )
+<logical form id=8311>	( lambda ?x ( mso:film.producer.film nicholas_tabarrok ?x ) ) ||| ( lambda ?x ( mso:film.producer.film marylou_and_jerome_bongiorno ?x ) )
 <parameters id=8311>	nicholas_tabarrok (entity) [3,4] @Q1 ||| marylou_and_jerome_bongiorno (entity) [2,5] @Q2
 <question type id=8311>	multi-turn-predicate
 ==================================================
 <question id=8312>	record label of c.c.c.c. ||| and for matt bachand ?
-<logical form id=8312>	( lambda ?x ( mso:music.artist.record_label c.c.c.c. ?x ) ||| ( lambda ?x ( mso:music.artist.record_label matt_bachand ?x ) )
+<logical form id=8312>	( lambda ?x ( mso:music.artist.record_label c.c.c.c. ?x ) ) ||| ( lambda ?x ( mso:music.artist.record_label matt_bachand ?x ) )
 <parameters id=8312>	c.c.c.c. (entity) [3,3] @Q1 ||| matt_bachand (entity) [2,3] @Q2
 <question type id=8312>	multi-turn-predicate
 ==================================================
 <question id=8313>	what is the runtime in minutes of the film the magliari ? ||| and for dragonwyck ?
-<logical form id=8313>	( lambda ?x ( mso:film.film.runtime_minutes the_magliari ?x ) ||| ( lambda ?x ( mso:film.film.runtime_minutes dragonwyck ?x ) )
+<logical form id=8313>	( lambda ?x ( mso:film.film.runtime_minutes the_magliari ?x ) ) ||| ( lambda ?x ( mso:film.film.runtime_minutes dragonwyck ?x ) )
 <parameters id=8313>	the_magliari (entity) [9,10] @Q1 ||| dragonwyck (entity) [2,2] @Q2
 <question type id=8313>	multi-turn-predicate
 ==================================================
