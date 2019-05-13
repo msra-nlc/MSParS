@@ -2,20 +2,20 @@
 
 ## Introduction
 
-MSParS is a large-scale dataset for Knowledge-based Semantic Parsing including single and multi-turn Question Answering.
-The whole dataset consists of 81,826 samples annotated by human English-speakers. 
+MSParS is a large-scale dataset for the open domain semantic parsing task.
+The whole dataset consists of 81,826 samples annotated by native English speakers. 
 We randomly shuffle these samples and use 80\% of them (63,826) as training set, 10\% as validation set (9,000), and the remaining 10\% as test set (9,000).
 Note that for test set we only publish the questions without annotations, as this dataset is supporting an [open evaluation](#nlpcc-2019) now. 
 
 Each sample is a quadruple consists of:
-* a question (or multiple questions for multi-turn QA)
-* the logical form(s) representing the question(s)
+* a question (or multiple questions for the multi-turn QA scenario)
+* the logical form(s) representing the semantic meaning(s) of the question(s)
 * the parameters (entity/type/value) extracted from the question(s) 
 * the question type(s)
 
-Different from some exisiting Semantic Parsing or Question Answering datasets containing only simple questions (single-relation), MSParS have 9 types of question including single-relation, multi-hop, multi-constraint, superlative, aggregation, comparative, yesno, cvt, and multi-choice. Considering the additional 3 types of multi-turn QA (multi-turn-entity, multi-turn-predicate, multi-turn-answer), the total number of the question types is 12. 
+Different from most exisiting semantic parsing datasets, which are either limited by size or biased on single-relation questions, MSParS covers 9 types of single-turn questions (single-relation, multi-hop, multi-constraint, superlative, aggregation, comparative, yesno, cvt and multi-choice) and 3 types of multi-turn questions (multi-turn-entity, multi-turn-predicate and multi-turn-answer). The total number of the question types is 12.
 
-MSParS dataset is based on Satori Knoledge Base. The entities, relations and types in MSParS are following the standard forms in Satori. Each logical form (lambda calculus) can be translated into a standard SPARQL query and refers to one or more subgraphs in Satori. A KB snippets of Satori will be released later.
+MSParS is annotated based on Microsoft's open domain knowledge graph, Satori. The entities, predicates and types in MSParS are following the standard forms in Satori. Each logical form (in lambda calculus) can be translated into a standard SPARQL query and refers to one or more subgraphs in Satori. The corresponding Satori snippets of MSParS will be released later.
 
 ## Format and example
 
