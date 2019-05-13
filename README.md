@@ -1,4 +1,4 @@
-# MSParS: a Multi-perspective Semantic ParSing Dataset for Knowledge-based Question Answering
+# MSParS (V1.0): a Multi-perspective Semantic ParSing Dataset for Knowledge-based Question Answering
 
 ## Introduction
 
@@ -15,7 +15,9 @@ Each sample is a quadruple consists of:
 
 Different from most exisiting semantic parsing datasets, which are either limited by size or biased on single-relation questions, MSParS covers 9 types of single-turn questions (single-relation, multi-hop, multi-constraint, superlative, aggregation, comparative, yesno, cvt and multi-choice) and 3 types of multi-turn questions (multi-turn-entity, multi-turn-predicate and multi-turn-answer). The total number of the question types is 12.
 
-MSParS is annotated based on Microsoft's open domain knowledge graph, Satori. The entities, predicates and types in MSParS are following the standard forms in Satori. Each logical form (in lambda calculus) can be translated into a standard SPARQL query and refers to one or more subgraphs in Satori. The corresponding Satori snippet of MSParS will be released later.
+MSParS is annotated based on Microsoft's open domain knowledge graph, Satori. The entities, predicates and types in MSParS are following the standard forms in Satori. The corresponding Satori snippet will be released later. 
+
+In the future, we will expand this dataset to V2.0, by including more types of questions such as clarification questions, adding adversarial samples, annotating non-English questions for the cross-lingual semantic parsing task, etc.
 
 ## Format and example
 
@@ -66,7 +68,7 @@ We used Satori as background Knowledge Base.
 <div align="middle"><img src="pics/collect-multi-hop.png" width="80%"></div>
 
 ## Citation
-If you use the MSParS dataset in your research, please cite:
+If you use the MSParS dataset in your research, please cite (===== paper will be updated later =====):
 
     @inproceedings{
       title={MSParS: a Multi-perspective Semantic ParSing Dataset for Knowledge-based Question Answering},
