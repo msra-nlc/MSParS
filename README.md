@@ -15,7 +15,7 @@ Each sample is a quadruple consists of:
 
 Different from most exisiting semantic parsing datasets, which are either limited by size or biased on single-relation questions, MSParS covers 9 types of single-turn questions (single-relation, multi-hop, multi-constraint, superlative, aggregation, comparative, yesno, cvt and multi-choice) and 3 types of multi-turn questions (multi-turn-entity, multi-turn-predicate and multi-turn-answer). The total number of the question types is 12.
 
-MSParS is annotated based on Microsoft's open domain knowledge graph, Satori. The entities, predicates and types in MSParS are following the standard forms in Satori. Each logical form (in lambda calculus) can be translated into a standard SPARQL query and refers to one or more subgraphs in Satori. The corresponding Satori snippets of MSParS will be released later.
+MSParS is annotated based on Microsoft's open domain knowledge graph, Satori. The entities, predicates and types in MSParS are following the standard forms in Satori. Each logical form (in lambda calculus) can be translated into a standard SPARQL query and refers to one or more subgraphs in Satori. The corresponding Satori snippet of MSParS will be released later.
 
 ## Format and example
 
@@ -41,7 +41,7 @@ The logical form we used is a simplified lambda calculus, which is similar with 
 ## Distribution
 
 The data distribution in the train set, dev set and test set is unbiased.
-Here is a table shows the nubmer and ratios of different question types in the three set.
+Here is a table shows the nubmers and ratios of different question types in the three datasets.
 
 <div align="middle"><img src="pics/split.png" width="100%"></div>
 
@@ -50,7 +50,7 @@ The top 15 frequent relations of the train/dev/test set are shows as follows.
 
 <div align="middle"><img src="pics/rels.png"></div>
 
-Different from some datasets generating questions using templates, all questions in MSParS written by the annotaters. These quesitons are highly diverse. The counting of the first word of each question is as follows.
+All questions in MSParS are written by human annotaters. These quesitons are highly diverse. The counting of the first word of each question is as follows.
 
 <div align="middle"><img src="pics/firstword.png" width="50%"></div>
 
