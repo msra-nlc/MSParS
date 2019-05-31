@@ -20043,7 +20043,7 @@
 <parameters id=4009>	the_last_picture_show_film_series (entity) [2,7]
 <question type id=4009>	aggregation
 ==================================================
-<question id=4010>	mauerblümchen s first movieiiiiiiiiiiiiiii
+<question id=4010>	mauerblümchen s first movie
 <logical form id=4010>	( argmin ( lambda ?x ( mso:film.film.content_rating ?x mauerblümchen ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=4010>	mauerblümchen (entity) [0,0] ||| 1 (value) [-1,-1]
 <question type id=4010>	superlative
@@ -20593,7 +20593,7 @@
 <parameters id=4119>	r18+ (entity) [0,0] ||| 1 (value) [-1,-1]
 <question type id=4119>	superlative
 ==================================================
-<question id=4120>	bruce orenstein s first movieiii
+<question id=4120>	bruce orenstein s first movie
 <logical form id=4120>	( argmin ( lambda ?x ( mso:film.film.genre ?x bruce_orenstein ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=4120>	bruce_orenstein (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=4120>	superlative
@@ -20708,7 +20708,7 @@
 <parameters id=4142>	lenny (entity) [4,4] ||| 1 (value) [-1,-1]
 <question type id=4142>	superlative
 ==================================================
-<question id=4143>	tom edinger s first movieiiiiiiiiiiiii
+<question id=4143>	tom edinger s first movie
 <logical form id=4143>	( argmin ( lambda ?x ( mso:film.film.genre ?x tom_edinger ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=4143>	tom_edinger (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=4143>	superlative
@@ -21898,7 +21898,7 @@
 <parameters id=4380>	joanne_krispin (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=4380>	superlative
 ==================================================
-<question id=4381>	peter paddon s first movieiiiii
+<question id=4381>	peter paddon s first movie
 <logical form id=4381>	( argmin ( lambda ?x ( mso:film.film.genre ?x peter_paddon ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=4381>	peter_paddon (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=4381>	superlative
@@ -22168,7 +22168,7 @@
 <parameters id=4434>	lara_berk (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=4434>	superlative
 ==================================================
-<question id=4435>	multimedia art s first movieiiii
+<question id=4435>	multimedia art s first movie
 <logical form id=4435>	( argmin ( lambda ?x ( mso:film.film.genre ?x multimedia_art ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=4435>	multimedia_art (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=4435>	superlative
@@ -22913,7 +22913,7 @@
 <parameters id=4583>	rage_against_the_machine (entity) [0,3] ||| 1 (value) [-1,-1]
 <question type id=4583>	superlative
 ==================================================
-<question id=4584>	quadir s first movieiiiii
+<question id=4584>	quadir s first movie
 <logical form id=4584>	( argmin ( lambda ?x ( mso:film.film.character ?x quadir ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=4584>	quadir (entity) [0,0] ||| 1 (value) [-1,-1]
 <question type id=4584>	superlative
@@ -23158,7 +23158,7 @@
 <parameters id=4632>	12+_(ru) (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=4632>	superlative
 ==================================================
-<question id=4633>	falsches leben s first movieiiiiiiiiiiiiiiiiiiiiii
+<question id=4633>	falsches leben s first movie
 <logical form id=4633>	( argmin ( lambda ?x ( mso:film.film.content_rating ?x falsches_leben ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=4633>	falsches_leben (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=4633>	superlative
@@ -23788,7 +23788,7 @@
 <parameters id=4758>	burn_up_w (entity) [2,4] ||| 1 (value) [-1,-1]
 <question type id=4758>	superlative
 ==================================================
-<question id=4759>	mimi solaire s first movieiiiiiiiii
+<question id=4759>	mimi solaire s first movie
 <logical form id=4759>	( argmin ( lambda ?x ( mso:film.film.genre ?x mimi_solaire ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=4759>	mimi_solaire (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=4759>	superlative
@@ -24543,7 +24543,7 @@
 <parameters id=4909>	jack_bland (entity) [2,3]
 <question type id=4909>	aggregation
 ==================================================
-<question id=4910>	brian vernick s first movieiiiii
+<question id=4910>	brian vernick s first movie
 <logical form id=4910>	( argmin ( lambda ?x ( mso:film.film.genre ?x brian_vernick ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=4910>	brian_vernick (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=4910>	superlative
@@ -24943,7 +24943,7 @@
 <parameters id=4989>	adrian_'g.a.'_witcher (entity) [2,4] ||| 1 (value) [-1,-1]
 <question type id=4989>	superlative
 ==================================================
-<question id=4990>	lizzie andrew borden s first movieiiiiiiii
+<question id=4990>	lizzie andrew borden s first movie
 <logical form id=4990>	( argmin ( lambda ?x ( mso:film.film.subject ?x lizzie_andrew_borden ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=4990>	lizzie_andrew_borden (entity) [0,2] ||| 1 (value) [-1,-1]
 <question type id=4990>	superlative
@@ -40178,7 +40178,7 @@
 <parameters id=8036>	welcome_to_grs (entity) [0,2] ||| 1 (value) [-1,-1]
 <question type id=8036>	superlative
 ==================================================
-<question id=8037>	ilkka hannunpoika s first movieiiiiii
+<question id=8037>	ilkka hannunpoika s first movie
 <logical form id=8037>	( argmin ( lambda ?x ( mso:film.film.character ?x ilkka_hannunpoika ) ) ( lambda ?x ( lambda ?y ( mso:film.film.initial_release_date ?x ?y ) ) ) 1 )
 <parameters id=8037>	ilkka_hannunpoika (entity) [0,1] ||| 1 (value) [-1,-1]
 <question type id=8037>	superlative
