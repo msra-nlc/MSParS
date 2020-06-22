@@ -71,11 +71,9 @@ We used Satori as background Knowledge Base.
 If you use the MSParS dataset in your research, please cite (===== paper will be updated later =====):
 
     @inproceedings{
-      title={MSParS: a Multi-perspective Semantic ParSing Dataset for Knowledge-based Question Answering},
-      author={},
-      booktitle={},
-      volume={},
-      pages={},
+      title={Overview of the NLPCC 2019 Shared Task: Open Domain Semantic Parsing},
+      author={Nan Duan},
+      booktitle={NLPCC},
       year={2019}
     }
 
